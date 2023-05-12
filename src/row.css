@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.row{
+    margin: 15px;
+}
+.row .movie{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+.row .movie::-webkit-scrollbar{
+    display: none;
+}
+.row.bigger .movie img{
+   width: 170px;
+   margin: 5px;
+}
+.row .movie img{
+    width: 100px;
+    margin: 5px;
+}

@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.banner{
+    height: 100vh;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    color: #fff;
+}
+.bannerIn{
+    width: 40vw;
+}
+.banner h1{
+    font-size: 3rem;
+    font-weight: 900;
+    padding: 1.2rem;
+}
+.banner p{
+    padding: 1.2rem;
+}
+.banner a{
+    text-decoration: none;
+    margin: 1rem;
+    padding: 0.5rem;
+    align-items: center;
+    color: #fff;
+    background-color:brown;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.banner a:hover{
+    background-color: #fff;
+    color: #000;
+}

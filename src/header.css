@@ -1,0 +1,25 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0%;
+    height: 60px;
+    width: 100%;
+    padding: 0.4rem;
+    position: fixed;
+    transition: all 0.44s ease-in-out;
+}
+.black{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+header .left{
+    width: 140px;
+}
+header .left img{
+    width: 100%;
+}
